@@ -1,161 +1,933 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr" data-lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Ahmed Nabil Reda Abdelkhalek — GIS Expert, GIS Project Manager and Geospatial Systems Integration specialist.">
-<meta name="author" content="Ahmed Nabil Reda Abdelkhalek">
-<title>Ahmed Nabil | GIS Expert & Geospatial Systems</title>
+<title>Ahmed Nabil Reda — GIS Expert | أحمد نبيل رضا</title>
+<meta name="description" content="Ahmed Nabil Reda — GIS Expert and Geospatial Systems Integration lead with 20+ years directing enterprise GIS, spatial data infrastructure and digital-twin programs across Saudi Arabia.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23101c2e'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%23d9a054' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='2.3' fill='%23d9a054'/%3E%3Cline x1='16' y1='2' x2='16' y2='7' stroke='%23d9a054' stroke-width='2'/%3E%3Cline x1='16' y1='25' x2='16' y2='30' stroke='%23d9a054' stroke-width='2'/%3E%3Cline x1='2' y1='16' x2='7' y2='16' stroke='%23d9a054' stroke-width='2'/%3E%3Cline x1='25' y1='16' x2='30' y2='16' stroke='%23d9a054' stroke-width='2'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Tajawal:wght@400;500;700;800&family=Markazi+Text:wght@500;600;700&display=swap" rel="stylesheet">
+
 <style>
-:root{--bg:#07111f;--bg2:#0b1727;--card:#0e2033;--text:#eef6fb;--muted:#a7b8c7;--a:#28d7bd;--b:#43b8f2;--line:rgba(255,255,255,.10);--max:1180px}
-*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}a{text-decoration:none;color:inherit}.wrap{width:min(var(--max),calc(100% - 36px));margin:auto}
-header{position:fixed;z-index:20;top:0;left:0;right:0;background:rgba(7,17,31,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}nav{height:72px;display:flex;align-items:center;gap:25px}.logo{font-size:21px;font-weight:800;margin-right:auto}.logo i{color:var(--a);font-style:normal}.navlinks{display:flex;gap:22px}.navlinks a{font-size:13px;color:var(--muted);font-weight:600}.navlinks a:hover{color:var(--a)}.cv{padding:9px 14px;border:1px solid rgba(40,215,189,.55);border-radius:7px;color:var(--a);font-size:12px;font-weight:800}
-.hero{min-height:780px;padding:145px 0 100px;display:flex;align-items:center;background:radial-gradient(circle at 80% 20%,rgba(67,184,242,.14),transparent 30%),radial-gradient(circle at 15% 70%,rgba(40,215,189,.10),transparent 28%),linear-gradient(135deg,#07111f,#0a1828)}.hero-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:65px;align-items:center}.eyebrow{font-size:11px;letter-spacing:2px;color:var(--a);font-weight:800;margin-bottom:12px}.hero h1{font-size:clamp(48px,7vw,82px);line-height:1.02;letter-spacing:-4px}.hero h1 span{display:block;font-size:.48em;letter-spacing:-1px;color:#d4e3ec;margin-top:12px}.hero .role{font-size:19px;font-weight:700;color:#c9d9e4;margin:22px 0 12px}.hero p.desc{color:var(--muted);max-width:730px;font-size:16px}.actions{display:flex;gap:12px;margin-top:30px}.btn{padding:12px 20px;border-radius:8px;font-size:13px;font-weight:800}.primary{background:var(--a);color:#03201b}.secondary{border:1px solid var(--line);color:#fff}.profile-card{background:rgba(14,32,51,.75);border:1px solid var(--line);border-radius:18px;padding:27px;box-shadow:0 25px 60px rgba(0,0,0,.25)}.avatar{width:112px;height:112px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(145deg,#183b50,#102538);border:1px solid rgba(40,215,189,.45);margin-bottom:20px;font-size:36px;font-weight:800;color:var(--a)}.stat{padding:17px 0;border-top:1px solid var(--line)}.stat strong{display:block;font-size:25px}.stat span{color:var(--muted);font-size:12px}.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:18px}.tags span{font-size:10px;border:1px solid var(--line);padding:5px 7px;border-radius:5px;color:#c8d8e3}
-section{padding:100px 0}.alt{background:var(--bg2)}.heading{margin-bottom:42px}.heading h2{font-size:44px;line-height:1.1;letter-spacing:-1.5px}.heading p:last-child{color:var(--muted);max-width:720px;margin-top:12px}.about{display:grid;grid-template-columns:1.05fr .95fr;gap:50px}.about p{color:#c2d0da;font-size:16px;margin-bottom:17px}.objective{padding:27px;background:linear-gradient(145deg,var(--card),#112b42);border:1px solid var(--line);border-radius:14px}.objective b{font-size:11px;letter-spacing:1.5px;color:var(--a)}.objective p{margin-top:12px}
-.timeline{position:relative;padding-left:28px}.timeline:before{content:"";position:absolute;left:5px;top:6px;bottom:10px;width:1px;background:linear-gradient(var(--a),transparent)}.job{position:relative;padding-bottom:55px}.dot{position:absolute;left:-29px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--a);border:3px solid var(--bg2)}.jobtop{display:flex;justify-content:space-between;gap:20px}.job h3{font-size:20px;line-height:1.3}.company{color:var(--b);font-weight:700;margin-top:5px}.period{white-space:nowrap;border:1px solid var(--line);border-radius:6px;padding:5px 9px;font-size:12px;color:#a9bdca}.loc{font-size:11px;color:#7f96a7;margin:4px 0 14px}.job ul{padding-left:18px;color:#b9c8d3}.job li{margin:6px 0}
-.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:23px}.card small{color:var(--a);font-weight:800}.card h3{font-size:17px;margin:10px 0 7px}.card p{font-size:13px;color:var(--muted)}
-.tags-large{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.tags-large span{border:1px solid var(--line);background:rgba(255,255,255,.025);padding:6px 9px;border-radius:6px;color:#c6d6e0;font-size:11px}
-.contrib{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.contrib div{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:20px}.contrib strong{display:block}.contrib span{display:block;color:var(--muted);font-size:12px;margin-top:5px}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:65px}.item{padding:17px;background:var(--card);border:1px solid var(--line);border-radius:9px;margin-bottom:10px}.item strong{font-size:14px}.item span{display:block;color:var(--muted);font-size:12px}.item em{display:block;color:var(--a);font-style:normal;font-size:11px;margin-top:3px}
-.awards{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.awards div{background:var(--card);border:1px solid var(--line);padding:18px;border-radius:9px;color:#c6d4de;font-size:12px}
-.contact{background:linear-gradient(135deg,#0d2638,#07111f)}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.contact h2{font-size:48px;line-height:1.05}.contact p{color:var(--muted);margin-top:12px}.details a,.details div{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:8px;margin:9px 0;color:#d7e4ec;font-size:13px}.details label{display:block;color:var(--a);font-size:9px;letter-spacing:1.5px;font-weight:800}
-footer{border-top:1px solid var(--line);background:#050d17;color:#728798;font-size:10px;padding:22px 0}.foot{display:flex;justify-content:space-between;gap:20px}
-@media(max-width:900px){.navlinks{display:none}.hero-grid,.about,.two,.contact-grid{grid-template-columns:1fr}.grid3,.contrib{grid-template-columns:repeat(2,1fr)}.awards{grid-template-columns:repeat(2,1fr)}.hero{min-height:auto}.profile-card{max-width:600px}}
-@media(max-width:600px){.wrap{width:calc(100% - 28px)}section{padding:72px 0}.hero h1{font-size:50px;letter-spacing:-2.5px}.grid3,.contrib,.awards{grid-template-columns:1fr}.jobtop{flex-direction:column}.period{align-self:flex-start}.contact h2{font-size:40px}.foot{flex-direction:column}}
+  :root{
+    --ink:#101c2e;
+    --ink-panel:#0a1220;
+    --line:#25344c;
+    --line-soft:#1a2740;
+    --text-light:#e9edf3;
+    --text-muted:#a7b6ca;
+    --parchment:#efe7d6;
+    --parchment-line:#d8cba9;
+    --text-dark:#1c2432;
+    --text-dark-muted:#5c6577;
+    --brass:#d9a054;
+    --brass-deep:#8a5a22;
+    --teal:#5fa39c;
+    --teal-deep:#29635d;
+    --side-w:296px;
+    --maxw:720px;
+    --f-display:"Fraunces", Georgia, serif;
+    --f-body:"IBM Plex Sans", -apple-system, sans-serif;
+    --f-mono:"IBM Plex Mono", monospace;
+  }
+
+  html[data-lang="ar"]{
+    --f-display:"Markazi Text", "Fraunces", serif;
+    --f-body:"Tajawal", "IBM Plex Sans", sans-serif;
+  }
+
+  *,*::before,*::after{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; }
+    *,*::before,*::after{ animation-duration:0.001ms !important; transition-duration:0.001ms !important; }
+  }
+
+  body{
+    margin:0;
+    background:var(--ink);
+    color:var(--text-light);
+    font-family:var(--f-body);
+    font-size:16px;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  h1,h2,h3{
+    font-family:var(--f-display);
+    font-weight:600;
+    line-height:1.15;
+    margin:0;
+  }
+  html[data-lang="en"] h1, html[data-lang="en"] h2, html[data-lang="en"] h3{ letter-spacing:-0.01em; }
+
+  p{ margin:0; }
+  a{ color:inherit; }
+  ul{ margin:0; padding:0; }
+
+  .mono{ font-family:var(--f-mono); letter-spacing:0.01em; }
+
+  .skip-link{
+    position:absolute; inset-inline-start:-999px; top:0;
+    background:var(--brass); color:var(--ink); padding:10px 16px; z-index:400;
+  }
+  .skip-link:focus{ inset-inline-start:12px; top:12px; }
+
+  ::selection{ background:var(--brass); color:var(--ink); }
+  a:focus-visible, button:focus-visible{ outline:2px solid var(--teal); outline-offset:2px; }
+
+  /* ================= language toggle ================= */
+  .lang-toggle{
+    position:fixed;
+    top:16px;
+    inset-inline-end:16px;
+    z-index:300;
+    display:flex;
+    background:var(--ink-panel);
+    border:1px solid var(--line);
+    border-radius:999px;
+    padding:3px;
+    gap:2px;
+  }
+  .lang-btn{
+    border:none;
+    background:none;
+    color:var(--text-muted);
+    font-family:var(--f-mono);
+    font-size:12px;
+    letter-spacing:0.04em;
+    padding:6px 13px;
+    border-radius:999px;
+    cursor:pointer;
+  }
+  .lang-btn.active{ background:var(--brass); color:var(--ink); }
+
+  /* ================= mobile top bar ================= */
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:14px 18px;
+    background:var(--ink-panel);
+    border-bottom:1px solid var(--line);
+    position:sticky;
+    top:0;
+    z-index:150;
+  }
+  @media (min-width:992px){ .topbar{ display:none; } }
+  .topbar-mark{ display:flex; align-items:center; gap:10px; text-decoration:none; }
+  .topbar-mark span{ font-family:var(--f-display); font-weight:600; font-size:15px; color:var(--text-light); }
+  .menu-btn{
+    width:38px; height:38px;
+    border:1px solid var(--line);
+    background:none;
+    color:var(--text-light);
+    border-radius:4px;
+    display:flex; align-items:center; justify-content:center;
+    cursor:pointer;
+  }
+
+  /* ================= sidebar ================= */
+  .sidebar{
+    background:var(--ink-panel);
+    padding:40px 30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:26px;
+  }
+  @media (min-width:992px){
+    .sidebar{
+      position:fixed;
+      top:0; inset-inline-start:0; bottom:0;
+      width:var(--side-w);
+      border-inline-end:1px solid var(--line);
+      overflow-y:auto;
+      justify-content:flex-start;
+    }
+  }
+  @media (max-width:991.98px){
+    .sidebar{
+      position:fixed;
+      top:0; inset-inline-start:0; bottom:0;
+      width:min(320px, 84vw);
+      z-index:250;
+      transform:translateX(-105%);
+      transition:transform 0.3s ease;
+      border-inline-end:1px solid var(--line);
+    }
+    html[dir="rtl"] .sidebar{ transform:translateX(105%); }
+    .sidebar.open{ transform:translateX(0); }
+    .sidebar-backdrop{
+      position:fixed; inset:0; background:rgba(6,10,18,0.6);
+      z-index:240; opacity:0; pointer-events:none; transition:opacity 0.25s ease;
+    }
+    .sidebar-backdrop.open{ opacity:1; pointer-events:auto; }
+  }
+
+  .avatar-ring{
+    width:148px; height:148px;
+    border-radius:50%;
+    padding:5px;
+    border:1.5px solid var(--brass);
+    display:flex; align-items:center; justify-content:center;
+    flex:none;
+  }
+  .avatar-ring img{
+    width:100%; height:100%;
+    border-radius:50%;
+    object-fit:cover;
+    display:block;
+  }
+
+  .side-name{ font-size:21px; color:var(--text-light); }
+  .side-role{ margin-top:6px; font-size:13px; color:var(--brass); font-weight:500; line-height:1.5; }
+  .side-loc{ margin-top:10px; font-size:12.5px; color:var(--text-muted); display:flex; align-items:center; gap:6px; justify-content:center; }
+  .side-loc svg{ flex:none; }
+
+  .side-nav{ width:100%; }
+  .side-nav ul{ list-style:none; display:flex; flex-direction:column; gap:2px; }
+  .side-nav a{
+    display:flex; align-items:center; gap:10px;
+    text-decoration:none;
+    color:var(--text-muted);
+    font-size:14px;
+    padding:10px 14px;
+    border-radius:4px;
+    border-inline-start:2px solid transparent;
+    transition:color 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+  }
+  .side-nav a:hover{ color:var(--text-light); background:var(--line-soft); }
+  .side-nav a.active{ color:var(--brass); border-inline-start-color:var(--brass); background:var(--line-soft); }
+
+  .side-social{ display:flex; gap:10px; }
+  .side-social a{
+    width:36px; height:36px;
+    border:1px solid var(--line);
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    text-decoration:none;
+    color:var(--text-muted);
+    transition:color 0.15s ease, border-color 0.15s ease;
+  }
+  .side-social a:hover{ color:var(--brass); border-color:var(--brass); }
+
+  .side-foot{
+    margin-top:auto;
+    padding-top:18px;
+    border-top:1px solid var(--line);
+    font-size:11.5px;
+    color:var(--text-muted);
+    width:100%;
+  }
+  .side-foot .coord{ color:var(--brass); display:block; margin-bottom:4px; }
+
+  /* ================= main ================= */
+  main{ min-width:0; }
+  @media (min-width:992px){ main{ margin-inline-start:var(--side-w); } }
+
+  section{ padding:64px 22px; scroll-margin-top:24px; }
+  @media (min-width:600px){ section{ padding:88px 40px; } }
+  @media (min-width:992px){ section{ padding:104px 64px; } }
+
+  .inner{ max-width:var(--maxw); margin:0 auto; }
+  .inner-wide{ max-width:960px; margin:0 auto; }
+
+  .kicker{ font-family:var(--f-mono); font-size:12.5px; color:var(--brass); margin-bottom:14px; display:block; }
+  .panel-light .kicker{ color:var(--brass-deep); }
+  h2.section-title{ font-size:clamp(27px,3.6vw,36px); }
+  .panel-light .section-title{ color:var(--text-dark); }
+
+  /* ---- hero ---- */
+  .hero{
+    position:relative;
+    min-height:min(640px, 92vh);
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+    border-bottom:1px solid var(--line);
+    padding-top:90px;
+  }
+  .hero-contour{ position:absolute; inset:0; width:100%; height:100%; opacity:0.55; pointer-events:none; }
+  .hero-inner{ position:relative; max-width:var(--maxw); margin:0 auto; padding:0 22px; }
+  @media (min-width:600px){ .hero-inner{ padding:0 40px; } }
+  @media (min-width:992px){ .hero-inner{ padding:0 64px; } }
+  .hero-greet{ font-family:var(--f-mono); font-size:14px; color:var(--teal); display:block; margin-bottom:14px; }
+  .hero-name{ font-size:clamp(36px,6.4vw,58px); color:var(--text-light); }
+  .hero-role-wrap{ margin-top:16px; min-height:32px; }
+  .hero-role{ font-size:clamp(16px,2vw,19px); color:var(--brass); font-weight:500; }
+  .hero-role::after{ content:"|"; margin-inline-start:3px; opacity:0.6; animation:blink 1s step-start infinite; }
+  @keyframes blink{ 50%{ opacity:0; } }
+  .hero-lede{ margin-top:22px; max-width:52ch; color:var(--text-muted); font-size:16.5px; }
+  .hero-actions{ margin-top:34px; display:flex; flex-wrap:wrap; gap:12px; }
+  .btn{
+    display:inline-flex; align-items:center; gap:8px;
+    padding:11px 22px; border:1px solid var(--brass); color:var(--brass);
+    text-decoration:none; font-size:14.5px; font-weight:500; border-radius:2px;
+    transition:background 0.15s ease, color 0.15s ease; cursor:pointer; font-family:var(--f-body);
+  }
+  .btn:hover{ background:var(--brass); color:var(--ink); }
+  .btn.ghost{ border-color:var(--line); color:var(--text-light); }
+  .btn.ghost:hover{ background:var(--line-soft); color:var(--text-light); }
+
+  /* ---- about ---- */
+  .lede-block{ color:var(--text-muted); font-size:16.5px; max-width:66ch; }
+  .lede-block p + p{ margin-top:16px; }
+
+  .facts{
+    margin-top:44px;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:0;
+    border-top:1px solid var(--line);
+  }
+  .fact-row{
+    display:grid; grid-template-columns:150px 1fr; gap:16px;
+    padding:14px 0; border-bottom:1px solid var(--line);
+    font-size:14.5px;
+  }
+  .fact-label{ font-family:var(--f-mono); font-size:12px; color:var(--brass); align-self:start; padding-top:2px; }
+  .fact-value{ color:var(--text-light); }
+
+  /* ---- resume ---- */
+  .resume-cols{ margin-top:48px; display:grid; grid-template-columns:1fr; gap:56px; }
+  @media (min-width:900px){ .resume-cols{ grid-template-columns:1fr 1.35fr; } }
+
+  .col-head{
+    display:flex; align-items:center; gap:10px;
+    font-family:var(--f-body); font-weight:600; font-size:14px;
+    color:var(--text-light); text-transform:uppercase; letter-spacing:0.04em;
+    padding-bottom:14px; border-bottom:1px solid var(--line); margin-bottom:28px;
+  }
+  .col-head svg{ color:var(--teal); flex:none; }
+
+  .rtl-list{ position:relative; }
+  .rtl-item{ position:relative; padding-inline-start:22px; margin-bottom:32px; }
+  .rtl-item:last-child{ margin-bottom:0; }
+  .rtl-item::before{ content:""; position:absolute; inset-inline-start:0; top:5px; width:9px; height:9px; border-radius:50%; background:var(--ink); border:2px solid var(--teal); }
+  .rtl-item::after{ content:""; position:absolute; inset-inline-start:4px; top:16px; bottom:-32px; width:1px; background:var(--line); }
+  .rtl-item:last-child::after{ display:none; }
+  .rtl-date{ font-family:var(--f-mono); font-size:12px; color:var(--teal); display:block; margin-bottom:6px; }
+  .rtl-title{ font-family:var(--f-display); font-weight:600; font-size:17px; color:var(--text-light); }
+  .rtl-meta{ margin-top:4px; font-size:13px; color:var(--text-muted); }
+
+  .exp-item{ position:relative; padding-inline-start:26px; margin-bottom:44px; }
+  .exp-item:last-child{ margin-bottom:0; }
+  .exp-item::before{ content:""; position:absolute; inset-inline-start:0; top:6px; width:11px; height:11px; border-radius:50%; background:var(--ink); border:2px solid var(--brass); }
+  .exp-item::after{ content:""; position:absolute; inset-inline-start:5px; top:18px; bottom:-44px; width:1px; background:var(--line); }
+  .exp-item:last-child::after{ display:none; }
+  .exp-date{ font-family:var(--f-mono); font-size:12.5px; color:var(--brass); display:block; margin-bottom:8px; }
+  .exp-role{ font-family:var(--f-display); font-weight:600; font-size:19px; color:var(--text-light); }
+  .exp-org{ margin-top:4px; font-size:14px; color:var(--text-muted); }
+  .exp-bullets{ margin:14px 0 0; list-style:none; }
+  .exp-bullets li{ position:relative; padding-inline-start:16px; font-size:14.5px; color:var(--text-muted); margin-top:9px; }
+  .exp-bullets li::before{ content:"–"; position:absolute; inset-inline-start:0; top:0; color:var(--teal); }
+
+  .subblock{ margin-top:52px; padding-top:28px; border-top:1px solid var(--line); }
+  .cert-grid{ margin-top:20px; display:grid; grid-template-columns:1fr; gap:16px; }
+  @media (min-width:600px){ .cert-grid{ grid-template-columns:1fr 1fr; } }
+  .cert-item{ font-size:14px; }
+  .cert-title{ font-weight:600; color:var(--text-light); }
+  .cert-meta{ margin-top:2px; color:var(--text-muted); font-size:12.5px; }
+  .award-list{ margin-top:20px; display:grid; grid-template-columns:1fr; gap:12px; }
+  @media (min-width:600px){ .award-list{ grid-template-columns:1fr 1fr; } }
+  .award-list li{ list-style:none; font-size:14px; color:var(--text-muted); position:relative; padding-inline-start:16px; }
+  .award-list li::before{ content:"–"; position:absolute; inset-inline-start:0; color:var(--brass); }
+
+  /* ---- skills ---- */
+  .bar-list{ margin-top:44px; display:flex; flex-direction:column; gap:22px; }
+  .bar-row-head{ display:flex; justify-content:space-between; font-size:14px; margin-bottom:8px; }
+  .bar-row-head .bname{ color:var(--text-light); font-weight:500; }
+  .bar-row-head .bpct{ font-family:var(--f-mono); color:var(--brass); font-size:12.5px; }
+  .bar-track{ height:6px; background:var(--line-soft); border-radius:3px; overflow:hidden; }
+  .bar-fill{ height:100%; width:0; background:linear-gradient(90deg, var(--teal), var(--brass)); border-radius:3px; transition:width 1.1s ease; }
+  .bar-fill.filled{ width:var(--pct); }
+
+  .tag-groups{ margin-top:56px; padding-top:32px; border-top:1px solid var(--line); display:grid; grid-template-columns:1fr; gap:30px; }
+  @media (min-width:700px){ .tag-groups{ grid-template-columns:1fr 1fr; } }
+  .tag-group-title{ font-size:13.5px; font-weight:600; color:var(--text-light); margin-bottom:12px; }
+  .tag-row{ display:flex; flex-wrap:wrap; gap:8px; }
+  .tag{ font-size:12px; color:var(--text-muted); border:1px solid var(--line); padding:5px 10px; border-radius:2px; font-family:var(--f-mono); }
+
+  .soft-skills{ margin-top:48px; padding-top:28px; border-top:1px solid var(--line); display:grid; grid-template-columns:1fr; gap:10px 32px; }
+  @media (min-width:600px){ .soft-skills{ grid-template-columns:1fr 1fr; } }
+  .soft-skills li{ list-style:none; font-size:14.5px; color:var(--text-muted); position:relative; padding-inline-start:14px; }
+  .soft-skills li::before{ content:""; position:absolute; inset-inline-start:0; top:9px; width:5px; height:1px; background:var(--teal); }
+
+  /* ---- programs (light) ---- */
+  .panel-light{ background:var(--parchment); color:var(--text-dark); border-bottom:1px solid var(--parchment-line); }
+  .panel-light .lede-block{ color:var(--text-dark-muted); }
+  .program-grid{ margin-top:46px; display:grid; grid-template-columns:1fr; gap:1px; background:var(--parchment-line); border:1px solid var(--parchment-line); }
+  @media (min-width:640px){ .program-grid{ grid-template-columns:repeat(2,1fr); } }
+  .program-card{ background:var(--parchment); padding:26px 24px; }
+  .program-tag{ font-family:var(--f-mono); font-size:11px; color:var(--brass-deep); display:block; margin-bottom:10px; }
+  .program-title{ font-family:var(--f-display); font-weight:600; font-size:18px; }
+  .program-desc{ margin-top:9px; font-size:14px; color:var(--text-dark-muted); }
+
+  /* ---- contact ---- */
+  .panel-dark{ background:var(--ink-panel); }
+  .contact-grid{ margin-top:38px; display:grid; grid-template-columns:1fr; gap:16px; }
+  @media (min-width:640px){ .contact-grid{ grid-template-columns:repeat(3,1fr); } }
+  .contact-card{ border:1px solid var(--line); padding:20px; }
+  .contact-label{ font-family:var(--f-mono); font-size:11px; color:var(--brass); display:block; margin-bottom:9px; }
+  .contact-value{ font-size:15px; text-decoration:none; color:var(--text-light); word-break:break-word; }
+  .contact-card a.contact-value:hover{ color:var(--brass); }
+
+  footer.site-foot{
+    margin-top:56px; padding-top:22px; border-top:1px solid var(--line);
+    display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px;
+    font-size:12px; color:var(--text-muted);
+  }
 </style>
 </head>
 <body>
+<a class="skip-link" href="#about" data-en="Skip to content" data-ar="تخطَّ إلى المحتوى">Skip to content</a>
 
-<header><div class="wrap"><nav>
-<a class="logo" href="#home">Ahmed Nabil<i>.</i></a>
-<div class="navlinks"><a href="#about">About</a><a href="#experience">Experience</a><a href="#expertise">Expertise</a><a href="#education">Education</a><a href="#contact">Contact</a></div>
-<a class="cv" href="CV-Ahmed-Nabil.pdf" download>DOWNLOAD CV</a>
-</nav></div></header>
+<div class="lang-toggle" role="group" aria-label="Language">
+  <button class="lang-btn active" data-lang="en" onclick="setLang('en')">EN</button>
+  <button class="lang-btn" data-lang="ar" onclick="setLang('ar')">AR</button>
+</div>
+
+<div class="topbar">
+  <a href="#home" class="topbar-mark">
+    <svg width="26" height="26" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+      <rect width="32" height="32" rx="6" fill="var(--ink)"/>
+      <circle cx="16" cy="16" r="9" stroke="var(--brass)" stroke-width="1.6"/>
+      <circle cx="16" cy="16" r="2.2" fill="var(--brass)"/>
+      <line x1="16" y1="2.5" x2="16" y2="7" stroke="var(--brass)" stroke-width="1.6"/>
+      <line x1="16" y1="25" x2="16" y2="29.5" stroke="var(--brass)" stroke-width="1.6"/>
+      <line x1="2.5" y1="16" x2="7" y2="16" stroke="var(--brass)" stroke-width="1.6"/>
+      <line x1="25" y1="16" x2="29.5" y2="16" stroke="var(--brass)" stroke-width="1.6"/>
+    </svg>
+    <span data-en="Ahmed Nabil Reda" data-ar="أحمد نبيل رضا">Ahmed Nabil Reda</span>
+  </a>
+  <button class="menu-btn" id="menuBtn" aria-label="Menu" aria-controls="sidebar" aria-expanded="false">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M2 4.5H16M2 9H16M2 13.5H16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+  </button>
+</div>
+
+<div class="sidebar-backdrop" id="backdrop"></div>
+
+<aside class="sidebar" id="sidebar">
+  <div class="avatar-ring">
+    <img src="data:image/jpeg;base64,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" alt="Ahmed Nabil Reda — أحمد نبيل رضا" width="148" height="148">
+  </div>
+  <div>
+    <h1 class="side-name" data-en="Ahmed Nabil Reda" data-ar="أحمد نبيل رضا">Ahmed Nabil Reda</h1>
+    <p class="side-role" data-en="GIS Expert &amp; Geospatial Systems Integration Lead" data-ar="خبير GIS وقائد تكامل الأنظمة الجيومكانية">GIS Expert &amp; Geospatial Systems Integration Lead</p>
+    <p class="side-loc">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21C12 21 19 15.5 19 10A7 7 0 1 0 5 10C5 15.5 12 21 12 21Z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="2.4" stroke="currentColor" stroke-width="1.5"/></svg>
+      <span data-en="Riyadh, Saudi Arabia" data-ar="الرياض، المملكة العربية السعودية">Riyadh, Saudi Arabia</span>
+    </p>
+  </div>
+
+  <nav class="side-nav" aria-label="Main">
+    <ul>
+      <li><a href="#home" data-section="home" data-en="Home" data-ar="الرئيسية">Home</a></li>
+      <li><a href="#about" data-section="about" data-en="About" data-ar="نبذة عني">About</a></li>
+      <li><a href="#resume" data-section="resume" data-en="Resume" data-ar="السيرة الذاتية">Resume</a></li>
+      <li><a href="#skills" data-section="skills" data-en="Skills" data-ar="المهارات">Skills</a></li>
+      <li><a href="#programs" data-section="programs" data-en="Programs" data-ar="البرامج">Programs</a></li>
+      <li><a href="#contact" data-section="contact" data-en="Contact" data-ar="التواصل">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="side-social">
+    <a href="mailto:Ahmed.n.r@live.com" aria-label="Email">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M3 6H21V18H3V6Z" stroke="currentColor" stroke-width="1.5"/><path d="M3 6L12 13L21 6" stroke="currentColor" stroke-width="1.5"/></svg>
+    </a>
+    <a href="tel:+966594204176" aria-label="Phone">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 3H9L11 8L8.5 9.5C9.5 12 11.5 14 14 15L15.5 12.5L20.5 14.5V17.5C20.5 19.4 18.9 21 17 20.9C10 20.5 4 14.5 3.6 7.5C3.5 5.6 4.6 4 6 3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+    </a>
+    <a href="https://www.linkedin.com/in/ahmednabilreda/" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M7.5 10V17M7.5 7V7.01M11.5 17V10M11.5 13C11.5 11 13 10 14.5 10C16 10 16.5 11 16.5 13V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    </a>
+  </div>
+
+  <div class="side-foot">
+    <span class="coord mono"></span>
+    <span data-en="Career since 2005" data-ar="بداية المسيرة المهنية 2005">Career since 2005</span>
+  </div>
+</aside>
 
 <main>
-<section class="hero" id="home"><div class="wrap hero-grid">
-<div>
-<div class="eyebrow">GIS • ENTERPRISE GEOSPATIAL • DIGITAL TRANSFORMATION</div>
-<h1>Ahmed Nabil<span>GIS Expert & Geospatial Systems Professional</span></h1>
-<div class="role">GIS Expert | GIS Project Manager | Professional Geospatial Services</div>
-<p class="desc">Results-driven GIS and Geospatial Systems Expert with over 20 years of proven experience in enterprise GIS implementation, Spatial Data Infrastructure (SDI), geospatial data governance, enterprise databases and digital transformation across Saudi Arabia.</p>
-<div class="actions"><a class="btn primary" href="#experience">EXPLORE EXPERIENCE</a><a class="btn secondary" href="#contact">CONTACT ME</a></div>
-</div>
-<aside class="profile-card">
-<div class="avatar">AN</div>
-<div class="stat"><strong>20+ Years</strong><span>GIS & Geospatial Systems Experience</span></div>
-<div class="stat"><strong>Saudi Arabia</strong><span>Enterprise & national-scale programs</span></div>
-<div class="stat"><strong>GIS + Data + Strategy</strong><span>From enterprise architecture to spatial analytics</span></div>
-<div class="tags"><span>ArcGIS Enterprise</span><span>SDI</span><span>GeoAI</span><span>Digital Twin</span><span>Data Governance</span><span>Enterprise DB</span></div>
-</aside>
-</div></section>
 
-<section id="about"><div class="wrap"><div class="heading"><div class="eyebrow">PROFILE</div><h2>About Me</h2></div>
-<div class="about"><div><p>Results driven GIS and Geospatial Systems Expert with over 20 years of experience in enterprise GIS implementation, spatial data infrastructure, digital transformation, urban development and housing sectors.</p><p>My experience combines GIS project management, enterprise geospatial database administration, data governance, quality management, data migration and integration, spatial analysis and location intelligence.</p><p>I have led multidisciplinary teams and contributed to national-scale programs supporting smart cities, digital twin initiatives, land management and AI-driven urban planning.</p></div>
-<div class="objective"><b>CAREER OBJECTIVE</b><p>To utilize my expertise in GIS project management, enterprise geospatial systems integration and data governance frameworks to drive digital transformation, improve spatial data quality and enhance decision-making processes.</p></div></div></div></section>
+  <section class="hero" id="home">
+    <svg class="hero-contour" viewBox="0 0 1000 560" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <path d="M -50 420 C 150 380, 250 470, 420 430 C 600 388, 700 460, 950 400" fill="none" stroke="var(--line)" stroke-width="1.4"/>
+      <path d="M -50 460 C 160 420, 260 500, 430 470 C 610 432, 710 495, 980 445" fill="none" stroke="var(--line)" stroke-width="1.4"/>
+      <path d="M -50 500 C 170 465, 270 530, 440 505 C 615 470, 715 525, 1000 485" fill="none" stroke="var(--line)" stroke-width="1.4"/>
+      <path d="M -50 155 C 220 95, 340 190, 560 130 C 730 85, 830 165, 1050 115" fill="none" stroke="var(--brass)" stroke-opacity="0.5" stroke-width="1.4"/>
+      <path d="M -50 195 C 230 140, 350 225, 570 170 C 735 128, 835 200, 1050 155" fill="none" stroke="var(--brass)" stroke-opacity="0.32" stroke-width="1.4"/>
+      <path d="M -50 235 C 240 185, 360 260, 580 210 C 740 172, 840 235, 1050 195" fill="none" stroke="var(--brass)" stroke-opacity="0.18" stroke-width="1.4"/>
+      <circle cx="783" cy="150" r="2.4" fill="var(--brass)"/>
+      <circle cx="240" cy="330" r="2.4" fill="var(--teal)"/>
+    </svg>
+    <div class="hero-inner">
+      <span class="hero-greet" data-en="Hello, I'm" data-ar="مرحبًا، أنا">Hello, I'm</span>
+      <h1 class="hero-name" data-en="Ahmed Nabil Reda" data-ar="أحمد نبيل رضا">Ahmed Nabil Reda</h1>
+      <div class="hero-role-wrap">
+        <span class="hero-role" id="roleTyped"></span>
+      </div>
+      <p class="hero-lede" data-en="Directing enterprise GIS, spatial data infrastructure and digital-twin programs across Saudi Arabia's national urban development agenda." data-ar="يقود أنظمة GIS المؤسسية، والبنية التحتية للبيانات المكانية، وبرامج التوأمة الرقمية ضمن أجندة التنمية العمرانية الوطنية بالمملكة العربية السعودية.">Directing enterprise GIS, spatial data infrastructure and digital-twin programs across Saudi Arabia's national urban development agenda.</p>
+      <div class="hero-actions">
+        <a class="btn" href="mailto:Ahmed.n.r@live.com" data-en="Get in Touch" data-ar="تواصل معي">Get in Touch</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/ahmednabilreda/" target="_blank" rel="noopener" data-en="View LinkedIn" data-ar="زيارة LinkedIn">View LinkedIn</a>
+      </div>
+    </div>
+  </section>
 
-<section class="alt" id="experience"><div class="wrap"><div class="heading"><div class="eyebrow">CAREER</div><h2>Professional Experience</h2><p>Progressive GIS leadership and technical experience across government, housing, urban planning, consulting and geospatial production environments.</p></div>
-<div class="timeline">
+  <section id="about">
+    <div class="inner">
+      <span class="kicker" data-en="01 — About" data-ar="01 — نبذة عني">01 — About</span>
+      <h2 class="section-title" data-en="Directing geospatial systems behind national-scale urban decisions." data-ar="قيادة الأنظمة الجيومكانية خلف القرارات العمرانية الوطنية.">Directing geospatial systems behind national-scale urban decisions.</h2>
+      <div class="lede-block" style="margin-top:26px;">
+        <p data-en="Ahmed is a GIS and geospatial systems expert with more than 20 years of experience spanning enterprise GIS implementation, spatial data infrastructure (SDI) and digital transformation across Saudi Arabia's urban development and housing sectors. His work sits at the intersection of geospatial project management, data governance and enterprise database administration." data-ar="أحمد خبير في نظم المعلومات الجغرافية (GIS) والأنظمة الجيومكانية، يمتلك أكثر من 20 عامًا من الخبرة في تنفيذ أنظمة GIS المؤسسية، والبنية التحتية للبيانات المكانية (SDI)، والتحول الرقمي في قطاعي التنمية العمرانية والإسكان بالمملكة العربية السعودية. يجمع في عمله بين إدارة المشاريع الجيومكانية، وحوكمة البيانات، وإدارة قواعد البيانات المؤسسية.">Ahmed is a GIS and geospatial systems expert with more than 20 years of experience spanning enterprise GIS implementation, spatial data infrastructure (SDI) and digital transformation across Saudi Arabia's urban development and housing sectors. His work sits at the intersection of geospatial project management, data governance and enterprise database administration.</p>
+        <p data-en="He has led national-scale programs supporting smart-city development, digital-twin initiatives and land-management systems — most recently defining the spatial foundations for an AI-powered Urban Planning Agent at the Ministry of Municipal and Housing." data-ar="قاد برامج وطنية واسعة النطاق دعمت تطوير المدن الذكية، ومبادرات التوأمة الرقمية (Digital Twin)، وأنظمة إدارة الأراضي — وآخرها تحديد الأسس المكانية لوكيل التخطيط العمراني المعتمد على الذكاء الاصطناعي في وزارة الشؤون البلدية والإسكان.">He has led national-scale programs supporting smart-city development, digital-twin initiatives and land-management systems — most recently defining the spatial foundations for an AI-powered Urban Planning Agent at the Ministry of Municipal and Housing.</p>
+      </div>
 
-<article class="job"><i class="dot"></i><div class="jobtop"><div><h3>GIS Expert | Geospatial Systems Integration</h3><div class="company">Ministry of Municipalities and Housing (MOMAH)</div></div><span class="period">2023 – Present</span></div><div class="loc">Riyadh, Saudi Arabia</div><ul>
-<li>Led enterprise geospatial data management and GIS operations across the Urban Planning & Land Agency, covering governance, quality, database administration and geospatial service delivery.</li>
-<li>Provided technical leadership for enterprise GIS initiatives, translating business requirements into scalable architectures, data models, workflows, applications and integrated services.</li>
-<li>Directed enterprise spatial database and geospatial data-model design, administration and optimization supporting UMAPS and ELAMS.</li>
-<li>Established and optimized geospatial data governance and quality processes covering lifecycle management, standardization, validation and integration.</li>
-<li>Led multidisciplinary geospatial teams and coordinated data collection, migration, integration, quality improvement and enterprise GIS operations.</li>
-<li>Defined geospatial requirements and spatial use cases for an AI-powered Urban Planning Agent covering diagnostics, land-use change, idle-land detection, growth forecasting, zoning, spatial optimization and decision support.</li>
-<li>Provided technical advisory for municipal asset data quality and led geospatial integration for the Digital Critical Sites Map supporting flood and rainfall risk mitigation.</li>
-</ul></article>
+      <div class="facts">
+        <div class="fact-row">
+          <span class="fact-label" data-en="LOCATION" data-ar="الموقع">LOCATION</span>
+          <span class="fact-value" data-en="Riyadh, Saudi Arabia" data-ar="الرياض، المملكة العربية السعودية">Riyadh, Saudi Arabia</span>
+        </div>
+        <div class="fact-row">
+          <span class="fact-label" data-en="EMAIL" data-ar="البريد الإلكتروني">EMAIL</span>
+          <span class="fact-value mono">Ahmed.n.r@live.com</span>
+        </div>
+        <div class="fact-row">
+          <span class="fact-label" data-en="PHONE" data-ar="الهاتف">PHONE</span>
+          <span class="fact-value mono">+966 59 420 4176</span>
+        </div>
+        <div class="fact-row">
+          <span class="fact-label" data-en="EXPERIENCE" data-ar="سنوات الخبرة">EXPERIENCE</span>
+          <span class="fact-value" data-en="20+ years in enterprise GIS" data-ar="أكثر من 20 عامًا في أنظمة GIS المؤسسية">20+ years in enterprise GIS</span>
+        </div>
+        <div class="fact-row">
+          <span class="fact-label" data-en="HIGHEST DEGREE" data-ar="أعلى مؤهل علمي">HIGHEST DEGREE</span>
+          <span class="fact-value" data-en="M.Sc. in GIS — Salzburg University, Austria" data-ar="ماجستير في نظم المعلومات الجغرافية (GIS) – جامعة سالزبورغ، النمسا">M.Sc. in GIS — Salzburg University, Austria</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<article class="job"><i class="dot"></i><div class="jobtop"><div><h3>GIS Manager | Enterprise Geospatial Data Manager</h3><div class="company">National Housing Services Co. (NHSC)</div></div><span class="period">2019 – 2023</span></div><div class="loc">Riyadh, Saudi Arabia</div><ul>
-<li>Led enterprise GIS and geospatial data management projects including database development, national-scale data collection, migration, integration and standardization.</li>
-<li>Managed GIS digital transformation and strategic planning initiatives aligned with enterprise requirements and technology roadmaps.</li>
-<li>Led geospatial data governance frameworks covering coding systems, metadata, spatial standards, management processes and quality requirements.</li>
-<li>Provided technical leadership for enterprise geodatabase requirements, data modeling, design, implementation and performance monitoring.</li>
-<li>Managed stakeholder engagement and translated business needs into GIS requirements, data models, workflows and enterprise solutions.</li>
-<li>Established QA and technical governance controls to ensure deliverables met specifications, requirements and quality benchmarks.</li>
-</ul></article>
+  <section id="resume">
+    <div class="inner-wide">
+      <span class="kicker" data-en="02 — Resume" data-ar="02 — السيرة الذاتية">02 — Resume</span>
+      <h2 class="section-title" data-en="Career traverse, 2005 to present." data-ar="المسار المهني، من 2005 حتى اليوم.">Career traverse, 2005 to present.</h2>
 
-<article class="job"><i class="dot"></i><div class="jobtop"><div><h3>GIS Consultant | Spatial Analysis & Land Information Systems</h3><div class="company">Saudi Arabia Parsons Ltd (SAPL), Ministry of Housing</div></div><span class="period">2015 – 2018</span></div><div class="loc">Riyadh, Saudi Arabia</div><ul>
-<li>Led GIS data collection and processing for housing land inventory under the Idle Land Tax Initiative.</li>
-<li>Developed spatial evaluation models for idle-land assessment and land decision making.</li>
-<li>Performed spatial analysis for project requirements and urban land assessment.</li>
-<li>Managed geospatial data integrity, validity and QA throughout project workflows.</li>
-<li>Supervised GIS teams and advised on GIS solutions aligned with business requirements.</li>
-</ul></article>
+      <div class="resume-cols">
+        <div>
+          <div class="col-head">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M2 8L12 3L22 8L12 13L2 8Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M6 10.5V16C6 16 8.5 18.5 12 18.5C15.5 18.5 18 16 18 16V10.5" stroke="currentColor" stroke-width="1.5"/></svg>
+            <span data-en="Education" data-ar="التعليم">Education</span>
+          </div>
+          <div class="rtl-list">
+            <div class="rtl-item">
+              <span class="rtl-date mono">2016–2019</span>
+              <h3 class="rtl-title" data-en="M.Sc. in GIS" data-ar="ماجستير في نظم المعلومات الجغرافية (GIS)">M.Sc. in GIS</h3>
+              <p class="rtl-meta" data-en="Salzburg University, Austria — Graduated with Distinction" data-ar="جامعة سالزبورغ، النمسا — تخرج بتقدير امتياز">Salzburg University, Austria — Graduated with Distinction</p>
+            </div>
+            <div class="rtl-item">
+              <span class="rtl-date mono">2003–2005</span>
+              <h3 class="rtl-title" data-en="High Diploma in GIS" data-ar="دبلوم عالٍ في نظم المعلومات الجغرافية (GIS)">High Diploma in GIS</h3>
+              <p class="rtl-meta" data-en="Ain Shams University, Egypt — Very Good" data-ar="جامعة عين شمس، مصر — جيد جدًا">Ain Shams University, Egypt — Very Good</p>
+            </div>
+            <div class="rtl-item">
+              <span class="rtl-date mono">1999–2003</span>
+              <h3 class="rtl-title" data-en="B.A. in Geography" data-ar="بكالوريوس الآداب في الجغرافيا">B.A. in Geography</h3>
+              <p class="rtl-meta" data-en="Ain Shams University, Egypt — Good" data-ar="جامعة عين شمس، مصر — جيد">Ain Shams University, Egypt — Good</p>
+            </div>
+          </div>
 
-<article class="job"><i class="dot"></i><div class="jobtop"><div><h3>GIS Analyst | Urban Observatory & Municipal GIS</h3><div class="company">Zuhair Fayez Partnership (ZFP)</div></div><span class="period">2011 – 2015</span></div><div class="loc">Makkah & Riyadh, Saudi Arabia</div><ul>
-<li>Performed geospatial analysis and processing for the Makkah Urban Observatory Project and municipal GIS development.</li>
-<li>Conducted data quality reviews, extraction, loading, transformation, organization and cleanup.</li>
-<li>Contributed GIS solutions in multidisciplinary teams and prepared cartographic mapping documents.</li>
-<li>Produced accurate geospatial reports supporting documentation and decision making.</li>
-</ul></article>
+          <div class="subblock">
+            <div class="col-head">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 15C14.2 15 16 13.2 16 11C16 8.8 14.2 7 12 7C9.8 7 8 8.8 8 11C8 13.2 9.8 15 12 15Z" stroke="currentColor" stroke-width="1.5"/><path d="M9 14.5L7.5 21L12 18.5L16.5 21L15 14.5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+              <span data-en="Certifications" data-ar="الشهادات المهنية">Certifications</span>
+            </div>
+            <div class="cert-grid">
+              <div class="cert-item">
+                <div class="cert-title">PMP®</div>
+                <div class="cert-meta" data-en="Project Management Institute — valid until Sep 2026" data-ar="معهد إدارة المشاريع — سارية حتى سبتمبر 2026">Project Management Institute — valid until Sep 2026</div>
+              </div>
+              <div class="cert-item">
+                <div class="cert-title">CBAP</div>
+                <div class="cert-meta" data-en="Certified Business Analysis Professional" data-ar="محلل الأعمال المعتمد">Certified Business Analysis Professional</div>
+              </div>
+              <div class="cert-item">
+                <div class="cert-title" data-en="Leading Business Transformation" data-ar="Leading Business Transformation">Leading Business Transformation</div>
+              </div>
+              <div class="cert-item">
+                <div class="cert-title" data-en="Spatial Data Science" data-ar="Spatial Data Science">Spatial Data Science</div>
+                <div class="cert-meta" data-en="Esri Academy" data-ar="أكاديمية Esri">Esri Academy</div>
+              </div>
+              <div class="cert-item">
+                <div class="cert-title" data-en="ArcGIS Python Scripting" data-ar="ArcGIS Python Scripting">ArcGIS Python Scripting</div>
+                <div class="cert-meta" data-en="Esri Academy" data-ar="أكاديمية Esri">Esri Academy</div>
+              </div>
+            </div>
+          </div>
 
-<article class="job"><i class="dot"></i><div class="jobtop"><div><h3>GIS Team Leader | Spatial Data & Regional Planning</h3><div class="company">Azmi Abdulhadi & Abdulla Al Moaibed Consulting Engineering Company (AMCDE)</div></div><span class="period">2009 – 2011</span></div><div class="loc">Dammam, Saudi Arabia</div><ul>
-<li>Led GIS team activities for regional base-map datasets supporting planning work in Tabuk.</li><li>Supervised and delegated GIS tasks and coordinated team activities.</li><li>Performed spatial analysis and data processing while maintaining data integrity and quality.</li><li>Coordinated GIS standards and advised on integrated solutions and deliverable compliance.</li>
-</ul></article>
+          <div class="subblock">
+            <div class="col-head">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2L14.5 8.5L21 9L16 13.5L17.5 20L12 16.5L6.5 20L8 13.5L3 9L9.5 8.5L12 2Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+              <span data-en="Awards &amp; Recognition" data-ar="التكريم والجوائز">Awards &amp; Recognition</span>
+            </div>
+            <ul class="award-list">
+              <li data-en="Establishment of the GIS Center — Jeddah Municipality" data-ar="تأسيس مركز GIS — أمانة جدة">Establishment of the GIS Center — Jeddah Municipality</li>
+              <li data-en="GIS Center development — Ministry of Housing" data-ar="تطوير مركز GIS — وزارة الإسكان">GIS Center development — Ministry of Housing</li>
+              <li data-en="Contribution to the Idle Lands Project" data-ar="المساهمة في مشروع الأراضي البيضاء">Contribution to the Idle Lands Project</li>
+              <li data-en="Development of ELAMS" data-ar="تطوير نظام ELAMS">Development of ELAMS</li>
+            </ul>
+          </div>
+        </div>
 
-<article class="job"><i class="dot"></i><div class="jobtop"><div><h3>GIS Specialist | Municipal Base Mapping & Data Quality</h3><div class="company">Atheeb Integrated Solutions Company (AISC)</div></div><span class="period">2007 – 2009</span></div><div class="loc">Jeddah, Saudi Arabia</div><ul>
-<li>Maintained and updated municipal base-map databases using IKONOS 2006/2007 imagery.</li><li>Managed CAD-to-GIS conversion teams, spatial positioning and standardized attributes.</li><li>Performed QC on digitized and entered data for the Jeddah Water Network Project.</li><li>Established GIS QA/QC procedures and supported municipal drawing conversion for GIS integration.</li><li>Performed raster image rectification.</li>
-</ul></article>
+        <div>
+          <div class="col-head">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="1.5" stroke="currentColor" stroke-width="1.5"/><path d="M8 7V5C8 4 8.8 3 10 3H14C15.2 3 16 4 16 5V7" stroke="currentColor" stroke-width="1.5"/></svg>
+            <span data-en="Professional Experience" data-ar="الخبرة العملية">Professional Experience</span>
+          </div>
 
-<article class="job"><i class="dot"></i><div class="jobtop"><div><h3>GIS Technician | Geospatial Data Conversion & Quality Control</h3><div class="company">Global GeoBits – Member of Osman Group Co.</div></div><span class="period">2005 – 2007</span></div><div class="loc">Cairo, Egypt</div><ul>
-<li>Converted hardcopy maps into digital GIS datasets for the National Digital Land Information System (NDLIS).</li><li>Performed map georeferencing and spatial data preparation.</li><li>Coordinated technical tasks and performed QC for accuracy and consistency.</li><li>Prepared and organized datasets for analysis and mapping.</li>
-</ul></article>
-</div></div></section>
+          <div>
+            <div class="exp-item">
+              <span class="exp-date mono">2023 — Present</span>
+              <h3 class="exp-role" data-en="GIS Expert, Geospatial Systems Integration" data-ar="خبير GIS، تكامل الأنظمة الجيومكانية">GIS Expert, Geospatial Systems Integration</h3>
+              <p class="exp-org" data-en="Ministry of Municipal and Housing (MOMAH) · Riyadh, Saudi Arabia" data-ar="وزارة الشؤون البلدية والإسكان (MOMAH) · الرياض، المملكة العربية السعودية">Ministry of Municipal and Housing (MOMAH) · Riyadh, Saudi Arabia</p>
+              <ul class="exp-bullets">
+                <li data-en="Leads geospatial requirements and use-case definition for an AI-powered Urban Planning Agent — land-use change detection, idle-land identification, growth forecasting and policy simulation." data-ar="يقود تحديد المتطلبات الجيومكانية وحالات الاستخدام لوكيل التخطيط العمراني المعتمد على الذكاء الاصطناعي — رصد تغيّر استخدامات الأراضي، وتحديد الأراضي البيضاء، والتنبؤ بالنمو العمراني، ومحاكاة السياسات.">Leads geospatial requirements and use-case definition for an AI-powered Urban Planning Agent — land-use change detection, idle-land identification, growth forecasting and policy simulation.</li>
+                <li data-en="Directs enterprise geospatial data operations for the Urban Planning and Land Agency: governance, integration, quality and service delivery across business functions and government entities." data-ar="يدير عمليات البيانات الجيومكانية المؤسسية لوكالة التخطيط العمراني والأراضي: الحوكمة، والتكامل، والجودة، وتقديم الخدمات عبر الجهات الحكومية.">Directs enterprise geospatial data operations for the Urban Planning and Land Agency: governance, integration, quality and service delivery across business functions and government entities.</li>
+                <li data-en="Architects and administers the enterprise geospatial databases behind UMAPS and ELAMS, with access control, standardized publishing and OGC/ISO-aligned interoperability." data-ar="يصمم ويدير قواعد البيانات الجيومكانية المؤسسية الداعمة لمنصتي UMAPS وELAMS، مع التحكم في الصلاحيات والتوافق مع معايير OGC/ISO.">Architects and administers the enterprise geospatial databases behind UMAPS and ELAMS, with access control, standardized publishing and OGC/ISO-aligned interoperability.</li>
+                <li data-en="Sets strategic roadmaps aligning enterprise geospatial capability with national digital-transformation frameworks." data-ar="يضع خرائط الطريق الاستراتيجية لمواءمة القدرات الجيومكانية المؤسسية مع أطر التحول الرقمي الوطنية.">Sets strategic roadmaps aligning enterprise geospatial capability with national digital-transformation frameworks.</li>
+                <li data-en="Advises on the Digital Critical Sites Map for flood and rainfall risk mitigation, coordinating with the Emergency and Crisis Center." data-ar="يقدّم الدعم الفني لمشروع الخريطة الرقمية للمواقع الحرجة لمواجهة مخاطر السيول والأمطار، بالتنسيق مع مركز العمليات والطوارئ.">Advises on the Digital Critical Sites Map for flood and rainfall risk mitigation, coordinating with the Emergency and Crisis Center.</li>
+              </ul>
+            </div>
 
-<section id="expertise"><div class="wrap"><div class="heading"><div class="eyebrow">CAPABILITIES</div><h2>Technical Expertise</h2></div>
-<div class="grid3">
-<div class="card"><small>01</small><h3>GIS Platforms & Tools</h3><p>ArcGIS Enterprise, ArcGIS Pro, ArcGIS Online, Workflow Manager, ModelBuilder, Esri ArcGIS Solutions, GeoMedia, Global Mapper and AutoCAD Map.</p></div>
-<div class="card"><small>02</small><h3>Geospatial Data Management</h3><p>Enterprise Geodatabase Design, SDI, Data Governance Frameworks, Data Quality Management, Metadata Standards, Data Reviewer, Migration and Spatial Modeling.</p></div>
-<div class="card"><small>03</small><h3>Databases & Programming</h3><p>Microsoft SQL Server, Oracle Spatial, PostgreSQL/PostGIS, ArcPy, SQL Scripting, ETL Processes and API Integration.</p></div>
-<div class="card"><small>04</small><h3>Remote Sensing & Analysis</h3><p>ERDAS Imagine, raster/vector analysis, satellite imagery interpretation, Digital Twin integration, raster processing, site selection and image classification.</p></div>
-<div class="card"><small>05</small><h3>Spatial Analysis & Visualization</h3><p>Network Analysis, 3D Geo-Design, Spatial Analytics, Map Projections, Geospatial Dashboards, Web GIS and Story Maps.</p></div>
-<div class="card"><small>06</small><h3>Cloud & Emerging Technologies</h3><p>Cloud GIS Deployment, Smart City Applications, Geospatial AI & ML, IoT Integration and Mobile GIS Solutions.</p></div>
-</div>
-<div style="margin-top:48px"><div class="eyebrow">CORE KEYWORDS</div><div class="tags-large">
-<span>Enterprise GIS</span><span>SDI</span><span>Geospatial Governance</span><span>Enterprise Geodatabase</span><span>Data Migration</span><span>Data Quality</span><span>Urban Planning</span><span>Land Management</span><span>Digital Twin</span><span>Smart Cities</span><span>GeoAI</span><span>Location Intelligence</span><span>Remote Sensing</span><span>Web GIS</span><span>ArcGIS Enterprise</span><span>ArcGIS Pro</span><span>PostGIS</span><span>Oracle Spatial</span><span>ArcPy</span><span>ETL</span><span>Digital Transformation</span><span>PMP</span>
-</div></div></div></section>
+            <div class="exp-item">
+              <span class="exp-date mono">2019 — 2023</span>
+              <h3 class="exp-role" data-en="GIS Project Manager, Geospatial Systems Integration" data-ar="مدير مشاريع GIS، تكامل الأنظمة الجيومكانية">GIS Project Manager, Geospatial Systems Integration</h3>
+              <p class="exp-org" data-en="National Housing Services Co. (NHSC) · Riyadh, Saudi Arabia" data-ar="الشركة الوطنية لخدمات الإسكان (NHSC) · الرياض، المملكة العربية السعودية">National Housing Services Co. (NHSC) · Riyadh, Saudi Arabia</p>
+              <ul class="exp-bullets">
+                <li data-en="Managed enterprise GIS database development and national data-migration programs against unified spatial standards." data-ar="أدار تطوير قواعد البيانات الجغرافية المؤسسية وبرامج ترحيل البيانات على مستوى المملكة وفق معايير مكانية موحّدة.">Managed enterprise GIS database development and national data-migration programs against unified spatial standards.</li>
+                <li data-en="Authored and reviewed geospatial governance frameworks, coding systems and metadata standards." data-ar="أعدّ وراجع أطر حوكمة البيانات الجيومكانية، وأنظمة الترميز، ومعايير البيانات الوصفية (Metadata).">Authored and reviewed geospatial governance frameworks, coding systems and metadata standards.</li>
+                <li data-en="Led digital-transformation projects spanning GIS strategic planning and stakeholder engagement." data-ar="قاد مشاريع التحول الرقمي في GIS، بما يشمل التخطيط الاستراتيجي وإشراك أصحاب المصلحة.">Led digital-transformation projects spanning GIS strategic planning and stakeholder engagement.</li>
+              </ul>
+            </div>
 
-<section class="alt"><div class="wrap"><div class="heading"><div class="eyebrow">SELECTED CONTRIBUTIONS</div><h2>Professional Contributions</h2></div><div class="contrib">
-<div><strong>Enterprise GIS</strong><span>Enterprise architectures, spatial databases, services and integrated platforms.</span></div>
-<div><strong>Data Governance</strong><span>Governance frameworks, standards, metadata and quality controls.</span></div>
-<div><strong>Urban Planning & Land</strong><span>Spatial analysis, land assessment and planning decision support.</span></div>
-<div><strong>AI & Digital Transformation</strong><span>Geospatial requirements and use cases for AI-driven planning.</span></div>
-<div><strong>Digital Twin & Smart Cities</strong><span>Geospatial foundations for smart-city and digital-twin initiatives.</span></div>
-<div><strong>Risk & Critical Sites</strong><span>Geospatial integration for flood and rainfall risk mitigation.</span></div>
-</div></div></section>
+            <div class="exp-item">
+              <span class="exp-date mono">2015 — 2018</span>
+              <h3 class="exp-role" data-en="GIS Expert" data-ar="خبير GIS">GIS Expert</h3>
+              <p class="exp-org" data-en="Saudi Arabia Parsons Ltd (SAPL), Ministry of Housing · Riyadh, Saudi Arabia" data-ar="شركة بارسونز السعودية المحدودة (SAPL)، وزارة الإسكان · الرياض، المملكة العربية السعودية">Saudi Arabia Parsons Ltd (SAPL), Ministry of Housing · Riyadh, Saudi Arabia</p>
+              <ul class="exp-bullets">
+                <li data-en="Supervised technical teams for the Idle Land Tax Initiative across five major Saudi cities." data-ar="أشرف على الفرق الفنية في مبادرة ضريبة الأراضي البيضاء ضمن خمس مدن سعودية رئيسية.">Supervised technical teams for the Idle Land Tax Initiative across five major Saudi cities.</li>
+                <li data-en="Led the establishment of the Ministry of Housing's Enterprise GIS Center." data-ar="قاد تأسيس مركز نظم المعلومات الجغرافية المؤسسي التابع لوزارة الإسكان.">Led the establishment of the Ministry of Housing's Enterprise GIS Center.</li>
+                <li data-en="Oversaw spatial data migration and the integration of imagery and field data." data-ar="أشرف على ترحيل البيانات المكانية وتكامل الصور الجوية وبيانات الميدان.">Oversaw spatial data migration and the integration of imagery and field data.</li>
+              </ul>
+            </div>
 
-<section id="education"><div class="wrap two">
-<div><div class="heading"><div class="eyebrow">ACADEMIC BACKGROUND</div><h2>Education</h2></div>
-<div class="item"><strong>Master of Science in GIS</strong><span>Salzburg University, Austria | 2016–2019</span><em>Graduated with Distinction</em></div>
-<div class="item"><strong>High Diploma in GIS</strong><span>Ain Shams University, Egypt | 2003–2005</span><em>Very Good</em></div>
-<div class="item"><strong>Bachelor of Arts in Geography</strong><span>Ain Shams University, Egypt | 1999–2003</span><em>Good</em></div></div>
-<div><div class="heading"><div class="eyebrow">CERTIFICATIONS</div><h2>Professional Certifications</h2></div>
-<div class="item"><strong>PMP®</strong><span>Project Management Professional — PMI</span><em>Valid until Sep 2029</em></div>
-<div class="item"><strong>CBAP</strong><span>Certified Business Analysis Professional — IIBA</span><em>2021</em></div>
-<div class="item"><strong>Leading Business Transformation</strong><span>Professional training</span></div>
-<div class="item"><strong>Spatial Data Science</strong><span>Esri Academy</span></div>
-<div class="item"><strong>Learning ArcGIS Python Scripting</strong><span>Esri Academy</span></div></div>
-</div></section>
+            <div class="exp-item">
+              <span class="exp-date mono">2011 — 2015</span>
+              <h3 class="exp-role" data-en="GIS Analyst" data-ar="محلل GIS">GIS Analyst</h3>
+              <p class="exp-org" data-en="Zuhair Fayez Partnership (ZFP) · Makkah &amp; Riyadh, Saudi Arabia" data-ar="شركة زهير فايز للاستشارات الهندسية (ZFP) · مكة المكرمة والرياض، المملكة العربية السعودية">Zuhair Fayez Partnership (ZFP) · Makkah &amp; Riyadh, Saudi Arabia</p>
+              <ul class="exp-bullets">
+                <li data-en="Led geospatial data analysis for the Makkah Urban Observatory Project." data-ar="قاد التحليل الجيومكاني لمشروع مرصد مكة المكرمة الحضري.">Led geospatial data analysis for the Makkah Urban Observatory Project.</li>
+                <li data-en="Established GIS centers for municipalities across Riyadh's western axis." data-ar="أسس مراكز نظم معلومات جغرافية لبلديات المحور الغربي لمنطقة الرياض.">Established GIS centers for municipalities across Riyadh's western axis.</li>
+                <li data-en="Supported urban and regional planning through spatial data visualization and analysis." data-ar="دعم التخطيط الحضري والإقليمي من خلال تحليل وتصور البيانات المكانية.">Supported urban and regional planning through spatial data visualization and analysis.</li>
+              </ul>
+            </div>
 
-<section class="alt"><div class="wrap"><div class="heading"><div class="eyebrow">RECOGNITION</div><h2>Awards & Recognitions</h2></div><div class="awards">
-<div>Recognition for establishment of GIS Center — Jeddah Municipality</div>
-<div>Recognition for GIS Center Development — Ministry of Housing</div>
-<div>Recognition for contribution to Idle Lands Project</div>
-<div>Recognition for development of Enterprise Land & Asset Management System (ELAMS)</div>
-</div></div></section>
+            <div class="exp-item">
+              <span class="exp-date mono">2009 — 2011</span>
+              <h3 class="exp-role" data-en="GIS Team Leader" data-ar="قائد فريق GIS">GIS Team Leader</h3>
+              <p class="exp-org" data-en="Azmi Abdulhadi &amp; Abdulla Al Moaibed Consulting Engineering (AMCDE) · Dammam, Saudi Arabia" data-ar="شركة عزمي عبدالهادي وعبدالله المعيبد للاستشارات الهندسية (AMCDE) · الدمام، المملكة العربية السعودية">Azmi Abdulhadi &amp; Abdulla Al Moaibed Consulting Engineering (AMCDE) · Dammam, Saudi Arabia</p>
+              <ul class="exp-bullets">
+                <li data-en="Led the technical team for the strategic and regional plan covering the Tabuk region's governorates." data-ar="قاد الفريق الفني للمخطط الاستراتيجي والإقليمي لمحافظات منطقة تبوك.">Led the technical team for the strategic and regional plan covering the Tabuk region's governorates.</li>
+                <li data-en="Built the base map for the Jubail municipality project." data-ar="أنجز الخريطة الأساسية لمشروع بلدية الجبيل.">Built the base map for the Jubail municipality project.</li>
+              </ul>
+            </div>
 
-<section class="contact" id="contact"><div class="wrap contact-grid">
-<div><div class="eyebrow">GET IN TOUCH</div><h2>Let's connect.</h2><p>For GIS leadership, enterprise geospatial systems, data governance, digital transformation and geospatial project opportunities.</p></div>
-<div class="details">
-<a href="mailto:AHMED.N.R@live.com"><label>EMAIL</label>AHMED.N.R@live.com</a>
-<a href="tel:+966594204176"><label>MOBILE</label>+966 594204176</a>
-<a href="https://www.linkedin.com/in/ahmednabil" target="_blank" rel="noopener"><label>LINKEDIN</label>linkedin.com/in/ahmednabil</a>
-<div><label>LOCATION</label>Riyadh, Saudi Arabia</div>
-</div></div></section>
+            <div class="exp-item">
+              <span class="exp-date mono">2007 — 2009</span>
+              <h3 class="exp-role" data-en="GIS Specialist" data-ar="أخصائي GIS">GIS Specialist</h3>
+              <p class="exp-org" data-en="Atheeb Integrated Solutions Company (AISC) · Jeddah, Saudi Arabia" data-ar="شركة عذيب للحلول المتكاملة (AISC) · جدة، المملكة العربية السعودية">Atheeb Integrated Solutions Company (AISC) · Jeddah, Saudi Arabia</p>
+              <ul class="exp-bullets">
+                <li data-en="Built the Jeddah municipality base map and led the city-planning and plan-registration projects." data-ar="أنجز الخريطة الأساسية لأمانة جدة وقاد مشاريع التخطيط العمراني وتسجيل المخططات.">Built the Jeddah municipality base map and led the city-planning and plan-registration projects.</li>
+                <li data-en="Established QA/QC procedures and standard topology rules." data-ar="أسس إجراءات ضبط الجودة (QA/QC) وقواعد الطوبولوجيا القياسية.">Established QA/QC procedures and standard topology rules.</li>
+                <li data-en="Maintained the Jeddah municipal water-network dataset." data-ar="تولى صيانة قاعدة بيانات شبكة المياه لأمانة جدة.">Maintained the Jeddah municipal water-network dataset.</li>
+              </ul>
+            </div>
+
+            <div class="exp-item">
+              <span class="exp-date mono">2005 — 2007</span>
+              <h3 class="exp-role" data-en="GIS Specialist" data-ar="أخصائي GIS">GIS Specialist</h3>
+              <p class="exp-org" data-en="Global GeoBits, Member of Osman Group Co. · Cairo, Egypt" data-ar="Global GeoBits، عضو في مجموعة عثمان · القاهرة، مصر">Global GeoBits, Member of Osman Group Co. · Cairo, Egypt</p>
+              <ul class="exp-bullets">
+                <li data-en="GIS specialist and work-team lead on Egypt's National Digital Land Information System (NDLIS)." data-ar="عمل أخصائيًا ومسؤول فريق عمل في المشروع الوطني لنظام معلومات الأراضي الرقمي في مصر (NDLIS).">GIS specialist and work-team lead on Egypt's National Digital Land Information System (NDLIS).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="inner-wide">
+      <span class="kicker" data-en="03 — Skills" data-ar="03 — المهارات">03 — Skills</span>
+      <h2 class="section-title" data-en="Technical range, by discipline." data-ar="نطاق تقني عبر تخصصات متعددة.">Technical range, by discipline.</h2>
+
+      <div class="bar-list" id="barList">
+        <div class="bar-row">
+          <div class="bar-row-head"><span class="bname">ArcGIS Enterprise &amp; Pro</span><span class="bpct">95%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="--pct:95%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-row-head"><span class="bname" data-en="Enterprise Geodatabase Design (SDI)" data-ar="تصميم قواعد البيانات الجغرافية المؤسسية (SDI)">Enterprise Geodatabase Design (SDI)</span><span class="bpct">92%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="--pct:92%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-row-head"><span class="bname" data-en="Geospatial Data Governance" data-ar="حوكمة البيانات الجيومكانية">Geospatial Data Governance</span><span class="bpct">90%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="--pct:90%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-row-head"><span class="bname">SQL Server / PostgreSQL / PostGIS</span><span class="bpct">85%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="--pct:85%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-row-head"><span class="bname" data-en="Python (ArcPy) &amp; ETL" data-ar="برمجة Python (ArcPy) وعمليات ETL">Python (ArcPy) &amp; ETL</span><span class="bpct">80%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="--pct:80%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-row-head"><span class="bname" data-en="Remote Sensing &amp; Imagery Analysis" data-ar="الاستشعار عن بعد وتحليل الصور">Remote Sensing &amp; Imagery Analysis</span><span class="bpct">85%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="--pct:85%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-row-head"><span class="bname" data-en="Web GIS &amp; Geospatial Dashboards" data-ar="Web GIS ولوحات المعلومات الجيومكانية">Web GIS &amp; Geospatial Dashboards</span><span class="bpct">82%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="--pct:82%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-row-head"><span class="bname" data-en="Cloud GIS &amp; Geospatial AI" data-ar="الحوسبة السحابية والذكاء الاصطناعي الجيومكاني">Cloud GIS &amp; Geospatial AI</span><span class="bpct">75%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="--pct:75%"></div></div>
+        </div>
+      </div>
+
+      <div class="tag-groups">
+        <div>
+          <div class="tag-group-title" data-en="Platforms &amp; Tools" data-ar="المنصات والأدوات">Platforms &amp; Tools</div>
+          <div class="tag-row">
+            <span class="tag">ArcGIS Online</span><span class="tag">Workflow Manager</span><span class="tag">ModelBuilder</span><span class="tag">GeoMedia</span><span class="tag">Global Mapper</span><span class="tag">AutoCAD Map</span>
+          </div>
+        </div>
+        <div>
+          <div class="tag-group-title" data-en="Data Management &amp; Integration" data-ar="إدارة البيانات وتكاملها">Data Management &amp; Integration</div>
+          <div class="tag-row">
+            <span class="tag">Data Quality</span><span class="tag">Metadata Standards</span><span class="tag">Data Reviewer</span><span class="tag">Data Migration</span><span class="tag">Spatial Modeling</span>
+          </div>
+        </div>
+        <div>
+          <div class="tag-group-title" data-en="Remote Sensing &amp; Analysis" data-ar="الاستشعار عن بعد والتحليل">Remote Sensing &amp; Analysis</div>
+          <div class="tag-row">
+            <span class="tag">ERDAS Imagine</span><span class="tag">Raster &amp; Vector Analysis</span><span class="tag">Digital Twin Integration</span><span class="tag">Image Classification</span>
+          </div>
+        </div>
+        <div>
+          <div class="tag-group-title" data-en="Spatial Analysis &amp; Visualization" data-ar="التحليل المكاني والتصور البصري">Spatial Analysis &amp; Visualization</div>
+          <div class="tag-row">
+            <span class="tag">Network Analysis</span><span class="tag">3D Geo-Design</span><span class="tag">Map Projections</span><span class="tag">Story Maps</span>
+          </div>
+        </div>
+        <div>
+          <div class="tag-group-title" data-en="Cloud &amp; Emerging Technologies" data-ar="الحوسبة السحابية والتقنيات الناشئة">Cloud &amp; Emerging Technologies</div>
+          <div class="tag-row">
+            <span class="tag">Smart City Applications</span><span class="tag">IoT Integration</span><span class="tag">Mobile GIS</span>
+          </div>
+        </div>
+        <div>
+          <div class="tag-group-title" data-en="Databases &amp; Programming" data-ar="قواعد البيانات والبرمجة">Databases &amp; Programming</div>
+          <div class="tag-row">
+            <span class="tag">Oracle Spatial</span><span class="tag">SQL Scripting</span><span class="tag">API Integration</span>
+          </div>
+        </div>
+      </div>
+
+      <ul class="soft-skills">
+        <li data-en="Leadership and team management" data-ar="القيادة وإدارة الفرق">Leadership and team management</li>
+        <li data-en="Strategic planning and decision making" data-ar="التخطيط الاستراتيجي واتخاذ القرار">Strategic planning and decision making</li>
+        <li data-en="Stakeholder engagement and communication" data-ar="إشراك أصحاب المصلحة والتواصل الفعّال">Stakeholder engagement and communication</li>
+        <li data-en="Analytical problem solving" data-ar="حل المشكلات بأسلوب تحليلي">Analytical problem solving</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="programs" class="panel-light">
+    <div class="inner-wide">
+      <span class="kicker" data-en="04 — Programs" data-ar="04 — البرامج">04 — Programs</span>
+      <h2 class="section-title" data-en="Systems and initiatives shaped end to end." data-ar="أنظمة ومبادرات تمت قيادتها من الألف إلى الياء.">Systems and initiatives shaped end to end.</h2>
+      <p class="lede-block" style="margin-top:20px;" data-en="A selection of the national and municipal programs where Ahmed's geospatial leadership shaped the underlying data, governance or platform." data-ar="مجموعة مختارة من البرامج الوطنية والبلدية التي شكّلت فيها قيادة أحمد الجيومكانية البيانات أو الحوكمة أو المنصة الأساسية.">A selection of the national and municipal programs where Ahmed's geospatial leadership shaped the underlying data, governance or platform.</p>
+
+      <div class="program-grid">
+        <div class="program-card">
+          <span class="program-tag" data-en="2023 — PRESENT" data-ar="2023 — حتى الآن">2023 — PRESENT</span>
+          <h3 class="program-title" data-en="AI-Powered Urban Planning Agent" data-ar="وكيل التخطيط العمراني بالذكاء الاصطناعي">AI-Powered Urban Planning Agent</h3>
+          <p class="program-desc" data-en="Defined the spatial use cases behind an AI planning agent — diagnostics, land-use change detection, zoning recommendation and spatial optimization." data-ar="تحديد حالات الاستخدام الجيومكانية لوكيل تخطيط مدعوم بالذكاء الاصطناعي — تشخيص عمراني، ورصد تغيّر استخدامات الأراضي، والتوصية بالتصنيف، والتحسين المكاني.">Defined the spatial use cases behind an AI planning agent — diagnostics, land-use change detection, zoning recommendation and spatial optimization.</p>
+        </div>
+        <div class="program-card">
+          <span class="program-tag" data-en="ENTERPRISE PLATFORM" data-ar="منصة مؤسسية">ENTERPRISE PLATFORM</span>
+          <h3 class="program-title" data-en="UMAPS &amp; ELAMS" data-ar="منصتا UMAPS وELAMS">UMAPS &amp; ELAMS</h3>
+          <p class="program-desc" data-en="Architected the enterprise geospatial databases behind the Urban Maps Platform and the Enterprise Land and Asset Management System." data-ar="صمّم قواعد البيانات الجيومكانية المؤسسية الداعمة لمنصة الخرائط الحضرية (UMAPS) ونظام إدارة الأراضي والأصول المؤسسي (ELAMS).">Architected the enterprise geospatial databases behind the Urban Maps Platform and the Enterprise Land and Asset Management System.</p>
+        </div>
+        <div class="program-card">
+          <span class="program-tag" data-en="RISK MITIGATION" data-ar="مواجهة المخاطر">RISK MITIGATION</span>
+          <h3 class="program-title" data-en="Digital Critical Sites Map" data-ar="الخريطة الرقمية للمواقع الحرجة">Digital Critical Sites Map</h3>
+          <p class="program-desc" data-en="Geospatial expertise for flood and rainfall risk mitigation, integrating critical-site visualization with the Emergency and Crisis Center." data-ar="دعم فني جيومكاني لمواجهة مخاطر السيول والأمطار، بدمج تصور المواقع الحرجة مع مركز العمليات والطوارئ.">Geospatial expertise for flood and rainfall risk mitigation, integrating critical-site visualization with the Emergency and Crisis Center.</p>
+        </div>
+        <div class="program-card">
+          <span class="program-tag" data-en="2015 — 2018" data-ar="2015 — 2018">2015 — 2018</span>
+          <h3 class="program-title" data-en="Idle Land Tax Initiative" data-ar="مبادرة ضريبة الأراضي البيضاء">Idle Land Tax Initiative</h3>
+          <p class="program-desc" data-en="Supervised the technical teams delivering the initiative across five major Saudi cities for the Ministry of Housing." data-ar="الإشراف على الفرق الفنية المنفذة للمبادرة في خمس مدن سعودية رئيسية لصالح وزارة الإسكان.">Supervised the technical teams delivering the initiative across five major Saudi cities for the Ministry of Housing.</p>
+        </div>
+        <div class="program-card">
+          <span class="program-tag" data-en="FOUNDING LEAD" data-ar="تأسيس وقيادة">FOUNDING LEAD</span>
+          <h3 class="program-title" data-en="Enterprise GIS Center, MoH" data-ar="مركز GIS المؤسسي – وزارة الإسكان">Enterprise GIS Center, MoH</h3>
+          <p class="program-desc" data-en="Led the establishment of the Ministry of Housing's Enterprise GIS Center, now a backbone of its spatial operations." data-ar="قيادة تأسيس مركز نظم المعلومات الجغرافية المؤسسي بوزارة الإسكان، والذي أصبح ركيزة أساسية لعملياتها المكانية.">Led the establishment of the Ministry of Housing's Enterprise GIS Center, now a backbone of its spatial operations.</p>
+        </div>
+        <div class="program-card">
+          <span class="program-tag" data-en="EARLY CAREER" data-ar="بدايات المسيرة">EARLY CAREER</span>
+          <h3 class="program-title" data-en="Makkah Observatory &amp; NDLIS" data-ar="مرصد مكة المكرمة ونظام NDLIS">Makkah Observatory &amp; NDLIS</h3>
+          <p class="program-desc" data-en="Geospatial analysis for the Makkah Urban Observatory Project, and team leadership on Egypt's National Digital Land Information System." data-ar="تحليل جيومكاني لمشروع مرصد مكة المكرمة الحضري، وقيادة فريق العمل في المشروع الوطني لنظام معلومات الأراضي الرقمي بمصر (NDLIS).">Geospatial analysis for the Makkah Urban Observatory Project, and team leadership on Egypt's National Digital Land Information System.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="panel-dark">
+    <div class="inner">
+      <span class="kicker" data-en="05 — Contact" data-ar="05 — التواصل">05 — Contact</span>
+      <h2 class="section-title" data-en="Let's talk about your next geospatial program." data-ar="لنتحدث عن برنامجك الجيومكاني القادم.">Let's talk about your next geospatial program.</h2>
+      <p class="lede-block" style="margin-top:18px;" data-en="Open to enterprise GIS leadership, geospatial systems integration and digital-transformation advisory roles." data-ar="متاح لأدوار القيادة في GIS المؤسسي، وتكامل الأنظمة الجيومكانية، والاستشارات في التحول الرقمي.">Open to enterprise GIS leadership, geospatial systems integration and digital-transformation advisory roles.</p>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <span class="contact-label" data-en="EMAIL" data-ar="البريد الإلكتروني">EMAIL</span>
+          <a class="contact-value" href="mailto:Ahmed.n.r@live.com">Ahmed.n.r@live.com</a>
+        </div>
+        <div class="contact-card">
+          <span class="contact-label" data-en="PHONE" data-ar="الهاتف">PHONE</span>
+          <a class="contact-value" href="tel:+966594204176">+966 59 420 4176</a>
+        </div>
+        <div class="contact-card">
+          <span class="contact-label" data-en="LINKEDIN" data-ar="لينكدإن">LINKEDIN</span>
+          <a class="contact-value" href="https://www.linkedin.com/in/ahmednabilreda/" target="_blank" rel="noopener">linkedin.com/in/ahmednabilreda</a>
+        </div>
+      </div>
+
+      <footer class="site-foot">
+        <span data-en="© 2026 Ahmed Nabil Reda Abdelkhalek. Riyadh, Saudi Arabia." data-ar="© 2026 أحمد نبيل رضا عبدالخالق. الرياض، المملكة العربية السعودية.">© 2026 Ahmed Nabil Reda Abdelkhalek. Riyadh, Saudi Arabia.</span>
+        <span class="mono"></span>
+      </footer>
+    </div>
+  </section>
+
 </main>
 
-<footer><div class="wrap foot"><span>© 2026 Ahmed Nabil Reda Abdelkhalek</span><span>GIS Expert • Geospatial Systems • Digital Transformation</span></div></footer>
+<script>
+  var ROLES = {
+    en: ["GIS Expert", "Geospatial Systems Integration Lead", "Enterprise GIS Project Manager", "Spatial Data Governance Advisor"],
+    ar: ["خبير GIS", "قائد تكامل الأنظمة الجيومكانية", "مدير مشاريع GIS المؤسسية", "مستشار حوكمة البيانات المكانية"]
+  };
+  var roleIndex = 0, roleTimer = null;
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function cycleRole(lang){
+    var el = document.getElementById('roleTyped');
+    if(!el) return;
+    var list = ROLES[lang] || ROLES.en;
+    el.textContent = list[roleIndex % list.length];
+    if (roleTimer) clearInterval(roleTimer);
+    if (!reduceMotion){
+      roleTimer = setInterval(function(){
+        roleIndex = (roleIndex + 1) % list.length;
+        el.style.opacity = 0;
+        setTimeout(function(){
+          el.textContent = list[roleIndex];
+          el.style.opacity = 1;
+        }, 220);
+      }, 2600);
+    }
+  }
+
+  function setLang(lang){
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    document.documentElement.setAttribute('data-lang', lang);
+    document.title = lang === 'ar' ? 'أحمد نبيل رضا — خبير GIS | Ahmed Nabil Reda' : 'Ahmed Nabil Reda — GIS Expert | أحمد نبيل رضا';
+
+    document.querySelectorAll('[data-en]').forEach(function(el){
+      var val = lang === 'ar' ? (el.getAttribute('data-ar') || el.getAttribute('data-en')) : el.getAttribute('data-en');
+      el.innerHTML = val;
+    });
+
+    document.querySelectorAll('.lang-btn').forEach(function(b){
+      b.classList.toggle('active', b.getAttribute('data-lang') === lang);
+    });
+
+    cycleRole(lang);
+    try{ localStorage.setItem('anr-lang', lang); }catch(e){}
+  }
+
+  document.addEventListener('DOMContentLoaded', function(){
+    var saved = 'en';
+    try{ saved = localStorage.getItem('anr-lang') || 'en'; }catch(e){}
+    setLang(saved);
+
+    var menuBtn = document.getElementById('menuBtn');
+    var sidebar = document.getElementById('sidebar');
+    var backdrop = document.getElementById('backdrop');
+    function closeMenu(){
+      sidebar.classList.remove('open');
+      backdrop.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded','false');
+    }
+    menuBtn.addEventListener('click', function(){
+      var open = sidebar.classList.toggle('open');
+      backdrop.classList.toggle('open', open);
+      menuBtn.setAttribute('aria-expanded', open ? 'true':'false');
+    });
+    backdrop.addEventListener('click', closeMenu);
+    sidebar.querySelectorAll('.side-nav a').forEach(function(a){
+      a.addEventListener('click', closeMenu);
+    });
+
+    var links = Array.prototype.slice.call(document.querySelectorAll('.side-nav a'));
+    var sections = links.map(function(l){ return document.getElementById(l.getAttribute('data-section')); });
+    function onScroll(){
+      var pos = window.scrollY + window.innerHeight * 0.3;
+      var current = sections[0];
+      for (var i = 0; i < sections.length; i++){
+        if (sections[i] && sections[i].offsetTop <= pos){ current = sections[i]; }
+      }
+      links.forEach(function(l){
+        l.classList.toggle('active', current && l.getAttribute('data-section') === current.id);
+      });
+    }
+    document.addEventListener('scroll', onScroll, { passive:true });
+    onScroll();
+
+    var bars = document.querySelectorAll('.bar-fill');
+    if ('IntersectionObserver' in window){
+      var io = new IntersectionObserver(function(entries){
+        entries.forEach(function(e){
+          if (e.isIntersecting){ e.target.classList.add('filled'); io.unobserve(e.target); }
+        });
+      }, { threshold:0.4 });
+      bars.forEach(function(b){ io.observe(b); });
+    } else {
+      bars.forEach(function(b){ b.classList.add('filled'); });
+    }
+  });
+</script>
 </body>
 </html>
